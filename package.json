@@ -1,22 +1,27 @@
 {
-  "name": "capacitacion-excel",
+  "name": "informe-capacitacion-excel",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianzangla/informe-capacitacion-excel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/adrianzangla/informe-capacitacion-excel/issues"
+  },
+  "homepage": "https://github.com/adrianzangla/informe-capacitacion-excel#readme",
   "dependencies": {
     "csv-parser": "^3.0.0",
     "exceljs": "^4.4.0",
     "iconv-lite": "^0.6.3",
-    "jschardet": "^3.1.2"
-  },
-  "devDependencies": {
-    "@types/node": "^20.12.7"
+    "jschardet": "^3.1.2",
+    "sqlite3": "^5.1.7"
   }
 }
