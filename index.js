@@ -1,4 +1,4 @@
-const ExcelJS = require('exceljs');
+const ExcelJS = require("exceljs");
 const jschardet = require("jschardet");
 const fs = require("fs");
 const csv = require("csv-parser");
@@ -108,8 +108,7 @@ const main = async () => {
   });
 
   // write the file named with the current time
-  await workbook.xlsx.writeFile(`Informe_${new Date().getTime()}.xlsx`);
-
+  await workbook.xlsx.writeFile(`Informe_${new Date()}.xlsx`);
 };
 
 main();
