@@ -108,7 +108,7 @@ const main = async () => {
   });
 
   // write the file named with the current time
-  await workbook.xlsx.writeFile(`Informe_${new Date()}.xlsx`);
+  await workbook.xlsx.writeFile(`Informe${new Date()}.xlsx`);
 };
 
 main();
